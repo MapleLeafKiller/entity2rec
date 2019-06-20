@@ -5,3 +5,6 @@ benchmarks/*
 features/*
 results/*
 venv/*
+
+.idea/
+env/

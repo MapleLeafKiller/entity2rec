@@ -5,6 +5,10 @@ import time
 from parse_args import parse_args
 from node2vec_recommender import Node2VecRecommender
 
+# ######################################
+# python entity2rec/main.py --dataset Movielens1M --run_all --write_features
+# ######################################
+
 random.seed(1)  # fixed seed for reproducibility
 
 start_time = time.time()
