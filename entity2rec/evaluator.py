@@ -227,6 +227,11 @@ class Evaluator(object):
             print('Compute features for testing')
             x_test, y_test, qids_test, items_test = self._compute_features_parallel('test', recommender,
                                                                                     users_list_chunks, n_jobs, users_list)
+            # x(list):{ρp(u,i)},property-specific score of(user,item),also as features of learning to rank model
+            # y(list):user's real rating of i,obtained from Movielens1m/test.dat
+            # qid(list):user_id
+            # items(list):item
+
 
             if supervised:
 
