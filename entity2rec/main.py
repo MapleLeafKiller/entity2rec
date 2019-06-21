@@ -9,8 +9,7 @@ from node2vec_recommender import Node2VecRecommender
 #
 # python entity2rec/main.py --dataset Movielens1M --run_all --write_features
 #
-# python entity2rec/main.py --dataset Movielens1M --run_all --write_features
-# --p = 1 --q = 1 --walk_length = 5 --num_walks = 20 --dimensions = 50
+# python entity2rec/main.py --dataset Movielens1M --run_all --write_features --p  1 --q 1 --walk_length 5 --num_walks 20 --dimensions 50 --workers 1
 #
 # ######################################
 

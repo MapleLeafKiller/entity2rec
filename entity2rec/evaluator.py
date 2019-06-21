@@ -306,7 +306,7 @@ class Evaluator(object):
 
         for user in users_list:
 
-            print(user)
+            # print(user)
 
             user_id = int(user.strip('user'))
 
